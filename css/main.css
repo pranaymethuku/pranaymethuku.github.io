@@ -8,13 +8,19 @@ body {
 .caption {
   color: greenyellow;
   font-weight: bold;
+  padding: 0 6%;
   padding-top: 30%;
-  padding-left: 85px;
 }
 
 #terminal {
   color: white;
   font-weight: normal;
+}
+
+@media screen and (max-width: 800px) {
+  .caption {
+    font-size: medium;
+  }
 }
 
 footer{
