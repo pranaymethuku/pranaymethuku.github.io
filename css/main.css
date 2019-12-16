@@ -1,0 +1,38 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  height: 100vh;
+}
+
+.caption {
+  color: greenyellow;
+  font-weight: bold;
+  padding-top: 30%;
+  padding-left: 85px;
+}
+
+#terminal {
+  color: white;
+  font-weight: normal;
+}
+
+footer{
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 80px 0;
+	text-align: center;
+	z-index: 1;
+}
+
+footer a {
+  padding: 10px 20px;
+  color: white;
+  text-emphasis: none;
+}
+
+footer a:hover {
+  color: greenyellow;
+}
