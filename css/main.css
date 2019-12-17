@@ -40,5 +40,6 @@ footer a {
 }
 
 footer a:hover {
+  transition-duration: 400ms;
   color: greenyellow;
 }
