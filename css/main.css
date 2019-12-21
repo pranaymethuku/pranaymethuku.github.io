@@ -12,9 +12,20 @@ body {
   padding-top: 30%;
 }
 
+.caption::selection {
+  background-color: greenyellow;
+  color: black;
+}
+
 #terminal {
   color: white;
   font-weight: normal;
+}
+
+#terminal::selection {
+  /* weird thing about Chrome, just "white" doesn't work */
+  background-color:rgba(255, 255, 255, 0.996);
+  color: black;
 }
 
 @media screen and (max-width: 800px) {
